@@ -8,7 +8,7 @@ copy:
 	cp $(SOURCE_FOLDER)/$(FILENAME) $(DEST_FOLDER)
 
 update:
-	cd $(SOURCE_FOLDER) && \
+	cd $(DEST_FOLDER) && \
 	git add $(FILENAME) && \
 	git commit -m "update $(FILENAME)" && \
 	git push origin master
