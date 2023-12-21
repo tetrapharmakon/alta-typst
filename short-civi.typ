@@ -87,38 +87,39 @@
 
     ==== Courses
 
-    _ITI9200 - Introduction to Category Theory_
+    === ITI9200 - Introduction to Category Theory
     #par(justify: true)[A course on basic category theory; at the #lnk("")[course webpage] you find a diary of the lectures and study material.]
     #term[2020---now][Castrum Danorum, EE]
 
-    _Elements of Finite Mathematics_
+    === Elements of Finite Mathematics
     #par(justify: true)[Techniques of counting, probability, discrete and continuous random variables.]
     #term[1st term 2016][London, CA]
 
 
     ==== Organization of Events
 
-    _Organiser of ItaCa 2023_
+    === Organiser of ItaCa 2023
     #par(justify: true)[The annual meeting of the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
     #term[Dec 2023][Torino, IT]
 
-    _Organiser of ItaCa Fest_
+    === Organiser of ItaCa Fest
     #par(justify: true)[An online webinar aimed to gather the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
     #term[2020---now][online]
 
-    _PSSL 103 - Brno_
+    === PSSL 103 - Brno
     #par(justify: true)[I have been one of the organizers of 103rd Peripathetic Seminar on Sheaves and Logic.]
     #term[Apr 2018][Brno, CZ]
     
     ==== Supervision of students
 
-    - *Ph.D. students* 
+    === Ph.D. students
       #par(justify: true)[I cosupervise *A. Laretto* (former SIGPLAN LT mentee) together with #lnk("")[N. Veltri].]
 
-    - *mentor for the SIGPLAN-M*
+    === mentor for the SIGPLAN-M
+      #par(justify: true)[Mentee: *A. Laretto*. We worked in formalization in Agda of various results in category theory.]
       // #par(justify: true)[The SIGPLAN Long-Term Mentoring Committee (SIGPLAN-M) organizes an international long-term mentoring program for programming languages researchers.]
 
-    - *supervisor B.Sc., M.Sc. in Mathematics, internships *
+    === supervisor B.Sc., M.Sc. in Mathematics, internships
 
       - *G. Ronchi* (_Adjoint functors_)
       // - *M. Roselli* (_Categorical linguistics from Lambek to Lambek_)
@@ -151,11 +152,11 @@ I conduct research oriented towards categorical probability theory and implement
     === Reviewer and referee\
     zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
 
-    == Languages
+    // == Languages
 
-    #skill("ISO 639-3 vec", 5)
-    #skill("ISO 639-3 ita", 4)
-    #skill("ISO 639-3 eng", 4)
-    #skill("ISO 639-3 fra", 3)
+    // #skill("ISO 639-3 vec", 5)
+    // #skill("ISO 639-3 ita", 4)
+    // #skill("ISO 639-3 eng", 4)
+    // #skill("ISO 639-3 fra", 3)
   ],
 )

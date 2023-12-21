@@ -29,7 +29,13 @@
 }
 
 #let term(period, location) = {
-  text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
+  text(8pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
+  v(-3mm)
+  line(length: 100%,stroke: .01pt + silver)
+}
+
+#let smol(txt) = {
+  text(luma(170), size: 9pt)[txt]
 }
 
 #let max_rating = 5
