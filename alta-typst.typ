@@ -66,7 +66,7 @@
   [\ ]
 }
 
-#let styled-link(dest, content) = emph(text(
+#let lnk(dest, content) = emph(text(
     fill: link_colour,
     link(dest, content)
   ))
