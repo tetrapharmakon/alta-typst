@@ -4,6 +4,8 @@ SOURCE_FOLDER = /home/fouche/repos/alta-typst
 DEST_FOLDER = /home/fouche/repos/tetrapharmakon.github.io/stuff/
 FILENAME = short-civi.pdf
 
+all: copy update
+
 do:
 	typst watch short-civi.typ
 
