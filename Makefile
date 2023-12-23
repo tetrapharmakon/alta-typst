@@ -4,6 +4,9 @@ SOURCE_FOLDER = /home/fouche/repos/alta-typst
 DEST_FOLDER = /home/fouche/repos/tetrapharmakon.github.io/stuff/
 FILENAME = short-civi.pdf
 
+do:
+	typst watch short-civi.typ
+
 copy:
 	cp $(SOURCE_FOLDER)/$(FILENAME) $(DEST_FOLDER)
 

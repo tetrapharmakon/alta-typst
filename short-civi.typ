@@ -1,7 +1,15 @@
 #import "alta-typst.typ": alta, term, skill, lnk
 
+#let doi_prefix = "https://www.doi.org"
+#let xiv_prefix = "https://arxiv.org/abs/"
 
-#let doi(x) = lnk("https://www.doi.org" + x)[x]
+#let doi(x) = {
+  lnk(doi_prefix + x)[x]
+}
+
+#let xiv(x) = {
+  lnk(xiv_prefix + x)[x] 
+}
 
 #alta(
   name: "Fosco Loregian",
@@ -19,64 +27,55 @@
     === Researcher in Category Theory \
     _Tallinna Tehnikaülikooli Küberneetika Instituut_\
     #term[Aug 2023 | now][Castrum Danorum, EE]
+    - Research, teaching, organization of seminars.
+
+
+    === Freelance consultant at #lnk("https://planting.space")[PlantingSpace]\
+    #term[Jan 2022 | now][remote]
+    - Research oriented towards categorical probability theory and implementations thereof.
 
     == Past Positions
 
 
-    === Postdoctoral fellow \
+    === Postdoctoral fellow positions held at \
+
     _Tallinna Tehnikaülikooli Küberneetika Instituut_\
     #term[Jan 2020 | Aug 2023][Castrum Danorum, EE]
 
+    _Centro de Matemática da Universidade de Coimbra_\
+    #term[Jul 2019 | Dec 2019][Aeminium, PT]
 
-    === Postdoctoral fellow \
-      _Centro de Matemática da Universidade de Coimbra_\
-    #term[Jul 2019 | Dec 2019][Coimbra, PT]
-
-    === Postdoctoral fellow \
       _Max-Planck-Institut für Mathematik_\
-    #term[Sep 2018 | Feb 2019][Bonn, D]
+    #term[Sep 2018 | Feb 2019][Bonna, D]
 
-    === Postdoctoral fellow \
-      _Masarykova univerzita_\
-    #term[Mar 2017 | Apr 2018][Brno, CZ]
+    _Masarykova univerzita_\
+    #term[Mar 2017 | Apr 2018][Bruna, CZ]
 
-    === Postdoctoral fellow \
-      _University of Western Ontario_\
-    #term[Sep 2016 | Nov 2016][London, CA]
+    _University of Western Ontario_\
+    #term[Sep 2016 | Nov 2016][Lunden, CA]
 
     == Education
 
     === Ph.D. in Mathematics \
     _Scuola Internazionale Superiore di Studi Avanzati_\
-    #term[Oct 2012 | Jun 2016][Trieste, IT]
-
-    // *thesis*: t-structures on stable ∞-categories (arXiv:2005.14295)
+    #term[Oct 2012 | Jun 2016][Tergeste, IT]
 
     === M.Sc. in Mathematics \
     _Università degli studi di Padova_\
-    #term[Oct 2010 | Jul 2012][Padova, IT]
-    
-    // *thesis*: Orlov reconstruction theorem (available if you ask kindly) 
+    #term[Oct 2010 | Jul 2012][Pàdoa, IT]
 
     === B.Sc. in Mathematics \
     _Università degli studi di Padova_\
-    #term[Jan 2008 | Jun 2010][Padova, IT]
-
-    // *thesis*: Monads and Beck’s theorem (available if you ask kindly)
+    #term[Jan 2008 | Jun 2010][Pàdoa, IT]
 
     == Publications
-
-    // Bicategories of automata, automata in bicategories \
-    // #text(luma(170), size: 9pt)[w/G. Boccali, A. Laretto, S. Luneia]\
-    // // #link("")[10.4204/EPTCS.397.1]
-    // doi: 10.4204/EPTCS.397.1
 
     #bibliography("pub.bib", full: true, title: "", style: "american-physics-society")
 
     == Preprints
     // has to be done by hand, dammit.
 
-    - F. Loregian, _Rosen's No-Go Theorem for Regular Categories_, arXiv:2012.11648 (2021)
+    - F. Loregian, _Rosen's No-Go Theorem for Regular Categories_, #lnk("https://arxiv.org/abs/2012.11648")[arXiv:2012.11648] (2021)
     - D. Dentamaro and F. Loregian, Categorical Ontology I - Existence, (2020)
     - D. Dentamaro and F. Loregian, Functorial _Erkennen_, (2020)
     - I. D. Liberti and F. Loregian, _On the Unicity of Formal Category Theories_, arXiv:1901.01594 (2019)
@@ -144,10 +143,7 @@
     #par(justify: true)[I became a relatively frequent contributor of #lnk("")[agda-categories]. Agda is... well, pain.]
     #par(justify: true)[I like languages, natural and artificial (_mi ŝatus verki vortaron al matematiko, kun terminoj el teoria kategorioj_; _mina õpin eesti keelt, aeglaselt_; _jeg liker Norsk, men jeg liker Maria Franz mer_); again, this is not unrelated to my love for Mathematics.]
 
-    ==== Refereeing, Consulting, and the like
-
-    === Freelance consultant at #lnk("")[PlantingSpace]\
-I conduct research oriented towards categorical probability theory and implementations thereof.
+    ==== Refereeing and reviewing activity
 
     === Reviewer and referee\
     zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
