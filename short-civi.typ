@@ -3,12 +3,12 @@
 #let doi_prefix = "https://www.doi.org"
 #let xiv_prefix = "https://arxiv.org/abs/"
 
-#let doi(x) = {
-  lnk(doi_prefix + x)[x]
+#let doi(arg) = {
+  lnk(doi_prefix + arg,arg)
 }
 
-#let xiv(x) = {
-  lnk(xiv_prefix + x)[x] 
+#let xiv(arg) = {
+  lnk(xiv_prefix + arg, "arXiv:" + arg) 
 }
 
 #alta(
@@ -75,12 +75,12 @@
     == Preprints
     // has to be done by hand, dammit.
 
-    - F. Loregian, _Rosen's No-Go Theorem for Regular Categories_, #lnk("https://arxiv.org/abs/2012.11648")[arXiv:2012.11648] (2021)
+    - F. Loregian, _Rosen's No-Go Theorem for Regular Categories_, #xiv("2012.11648") (2021)
     - D. Dentamaro and F. Loregian, Categorical Ontology I - Existence, (2020)
     - D. Dentamaro and F. Loregian, Functorial _Erkennen_, (2020)
-    - I. D. Liberti and F. Loregian, _On the Unicity of Formal Category Theories_, arXiv:1901.01594 (2019)
-    - F. Loregian, _Localization Theory for Derivators_, arXiv:1802.08193 (2018)
-    - D. Fiorenza and F. Loregian, _Recollements in Stable $infinity$-Categories_, arXiv:1507.03913 (2016)
+    - I. D. Liberti and F. Loregian, _On the Unicity of Formal Category Theories_, #xiv("1901.01594") (2019)
+    - F. Loregian, _Localization Theory for Derivators_, #xiv("1802.08193") (2018)
+    - D. Fiorenza and F. Loregian, _Recollements in Stable $infinity$-Categories_, #xiv("1507.03913") (2016)
 
     == Teaching and stuff
 
@@ -112,7 +112,7 @@
     ==== Supervision of students
 
     === Ph.D. students
-      #par(justify: true)[I cosupervise *A. Laretto* (former SIGPLAN LT mentee) together with #lnk("")[N. Veltri].]
+      #par(justify: true)[I cosupervise *A. Laretto* (former SIGPLAN LT mentee) together with #lnk("https://niccoloveltri.github.io")[N. Veltri].]
 
     === mentor for the SIGPLAN-M
       #par(justify: true)[Mentee: *A. Laretto*. We worked in formalization in Agda of various results in category theory.]
@@ -129,11 +129,11 @@
     ==== Other activities 
 
     === Appointee for the Adjoint school 2019
-    #par(justify: true)[A webinar and online applied Category Theory reading course. The project was _Traversal optics and profunctors_. Led to the development of #lnk("")[arXiv:2001.07488].]
+    #par(justify: true)[A webinar and online applied Category Theory reading course. The project was _Traversal optics and profunctors_. Led to the development of #xiv("2001.07488").]
     #term[Mar 2019 | Jun 2019][online]
 
     === Appointee for Kan Extension Seminar I
-    #par(justify: true)[A webinar and online Category Theory reading course. Guided by #lnk("")[E. Riehl]]
+    #par(justify: true)[A webinar and online Category Theory reading course. Guided by #lnk("https://emilyriehl.github.io")[E. Riehl]]
     #term[Jan 2014 | Jul 2014][online]
 
     ==== Sparse skills
@@ -148,11 +148,11 @@
     === Reviewer and referee\
     zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
 
-    // == Languages
+    == Languages
 
-    // #skill("ISO 639-3 vec", 5)
+    #skill("ISO 639-3 vec", 5)
     // #skill("ISO 639-3 ita", 4)
-    // #skill("ISO 639-3 eng", 4)
-    // #skill("ISO 639-3 fra", 3)
+    #skill("ISO 639-3 eng", 4)
+    #skill("ISO 639-3 fra", 3)
   ],
 )
