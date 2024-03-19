@@ -2,6 +2,7 @@
 
 #let doi_prefix = "https://www.doi.org"
 #let xiv_prefix = "https://arxiv.org/abs/"
+#let today = datetime.today()
 
 #let doi(arg) = {
   lnk(doi_prefix + arg,arg)
@@ -20,7 +21,7 @@
     // (name: "linkedin", link: "linkedin.com/in/fosco-g-loregian-b379a539/", display: "Fosco Loregian"),
     (name: "location", link: "https://maps.app.goo.gl/kQWaARwi5vgawuFn9", display: "Akadeemia tee 21/B"),
   ),
-  tagline: [Category theory, and everything about it.],
+  tagline: [Category theory and everything about it. (last update: #today.display("[day]/[month]/[year]"))],
   [
     == Current Position
 
