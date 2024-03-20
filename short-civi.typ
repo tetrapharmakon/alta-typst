@@ -93,14 +93,14 @@
 
     === Elements of Finite Mathematics
     #par(justify: true)[Techniques of counting, probability, discrete and continuous random variables.]
-    #term[1st term 2016][London, CA]
+    #term[1st term 2016][Lunden, CA]
 
 
     ==== Organization of Events
 
     === Organiser of ItaCa 2023
     #par(justify: true)[The annual meeting of the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
-    #term[Dec 2023][Torino, IT]
+    #term[Dec 2023][Turin, IT]
 
     === Organiser of ItaCa Fest
     #par(justify: true)[An online webinar aimed to gather the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
@@ -108,7 +108,7 @@
 
     === PSSL 103 - Brno
     #par(justify: true)[I have been one of the organizers of 103rd Peripathetic Seminar on Sheaves and Logic.]
-    #term[Apr 2018][Brno, CZ]
+    #term[Apr 2018][Bruna, CZ]
     
     ==== Supervision of students
 
