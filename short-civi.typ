@@ -25,7 +25,7 @@
   [
     == Current Position
 
-    === Researcher in Category Theory \
+    === Researcher \
     _Tallinna Tehnikaülikooli Küberneetika Instituut_\
     #term[Aug 2023 | now][Castrum Danorum, EE]
     - Research, teaching, organization of seminars.
@@ -57,7 +57,7 @@
 
     == Education
 
-    === Ph.D. in Mathematics \
+    === Ph.D. in Mathematics #footnote[Technically "Ph.D. in Geometry", bt that's probably derogatory towards true geometers.] \
     _Scuola Internazionale Superiore di Studi Avanzati_\
     #term[Oct 2012 | Jun 2016][Tergeste, IT]
 
@@ -76,12 +76,12 @@
     == Preprints
     // has to be done by hand, dammit.
 
-    - F. Loregian, _Rosen's No-Go Theorem for Regular Categories_, #xiv("2012.11648") (2021)
-    - D. Dentamaro and F. Loregian, Categorical Ontology I - Existence, (2020)
-    - D. Dentamaro and F. Loregian, Functorial _Erkennen_, (2020)
-    - I. D. Liberti and F. Loregian, _On the Unicity of Formal Category Theories_, #xiv("1901.01594") (2019)
-    - F. Loregian, _Localization Theory for Derivators_, #xiv("1802.08193") (2018)
-    - D. Fiorenza and F. Loregian, _Recollements in Stable $infinity$-Categories_, #xiv("1507.03913") (2016)
+    - ---, _Rosen's No-Go Theorem for Regular Categories_, #xiv("2012.11648") (2021)
+    - D. Dentamaro and ---, Categorical Ontology I - Existence, (2020)
+    - D. Dentamaro and ---, Functorial _Erkennen_, (2020)
+    - I. D. Liberti and ---, _On the Unicity of Formal Category Theories_, #xiv("1901.01594") (2019)
+    - ---, _Localization Theory for Derivators_, #xiv("1802.08193") (2018)
+    - D. Fiorenza and ---, _Recollements in Stable $infinity$-Categories_, #xiv("1507.03913") (2016)
 
     == Teaching and stuff
 
@@ -89,7 +89,7 @@
 
     === ITI9200 - Introduction to Category Theory
     #par(justify: true)[A course on basic category theory; at the #lnk("")[course webpage] you find a diary of the lectures and study material.]
-    #term[2020---now][Castrum Danorum, EE]
+    #term[2020---now; Spring term][Castrum Danorum, EE]
 
     === Elements of Finite Mathematics
     #par(justify: true)[Techniques of counting, probability, discrete and continuous random variables.]
@@ -97,6 +97,10 @@
 
 
     ==== Organization of Events
+
+    === Organiser of ItaCa 2024
+    #par(justify: true)[The annual meeting of the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
+    #term[Dec 2024][Pàdoa, IT]
 
     === Organiser of ItaCa 2023
     #par(justify: true)[The annual meeting of the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
@@ -144,16 +148,10 @@
     #par(justify: true)[I became a relatively frequent contributor of #lnk("")[agda-categories]. Agda is... well, pain.]
     #par(justify: true)[I like languages, natural and artificial (_mi ŝatus verki vortaron al matematiko, kun terminoj el teoria kategorioj_; _mina õpin eesti keelt, aeglaselt_; _jeg liker Norsk, men jeg liker Maria Franz mer_); again, this is not unrelated to my love for Mathematics.]
 
-    ==== Refereeing and reviewing activity
+    // ==== Refereeing and reviewing activity
 
-    === Reviewer and referee\
-    zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
+    // === Reviewer and referee\
+    // zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
 
-    == Languages
-
-    #skill("ISO 639-3 vec", 5)
-    // #skill("ISO 639-3 ita", 4)
-    #skill("ISO 639-3 eng", 4)
-    #skill("ISO 639-3 fra", 3)
   ],
 )
