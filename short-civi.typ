@@ -57,7 +57,7 @@
 
     == Education
 
-    === Ph.D. in Mathematics #footnote[Technically "Ph.D. in Geometry", bt that's probably derogatory towards true geometers.] \
+    === Ph.D. in Mathematics #footnote[Technically "Ph.D. in Geometry", but that's probably derogatory towards true geometers.] \
     _Scuola Internazionale Superiore di Studi Avanzati_\
     #term[Oct 2012 | Jun 2016][Tergeste, IT]
 
@@ -145,7 +145,7 @@
 
     #par(justify: true)[I like the art of crafting books and drawing maps; this is not unrelated to my love for Mathematics.] 
     #par(justify: true)[I am a pretty decent _TeXnic_.] 
-    #par(justify: true)[I became a relatively frequent contributor of #lnk("")[agda-categories]. Agda is... well, pain.]
+    #par(justify: true)[I became a relatively frequent contributor of #lnk("https://github.com/agda/agda-categories")[agda-categories]. Agda is... well, pain.]
     #par(justify: true)[I like languages, natural and artificial (_mi ŝatus verki vortaron al matematiko, kun terminoj el teoria kategorioj_; _mina õpin eesti keelt, aeglaselt_; _jeg liker Norsk, men jeg liker Maria Franz mer_); again, this is not unrelated to my love for Mathematics.]
 
     // ==== Refereeing and reviewing activity
