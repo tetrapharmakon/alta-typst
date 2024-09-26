@@ -148,10 +148,10 @@
     === Reviewer and referee\
     zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
 
-    == Languages
+    == Language skills
 
     #skill("ISO 639-3 vec", 5)
-    // #skill("ISO 639-3 ita", 4)
+    #skill("ISO 639-3 ita", 4)
     #skill("ISO 639-3 eng", 4)
     #skill("ISO 639-3 fra", 3)
   ],
