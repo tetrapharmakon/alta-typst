@@ -2,6 +2,7 @@
 
 #let doi_prefix = "https://www.doi.org"
 #let xiv_prefix = "https://arxiv.org/abs/"
+#let today = datetime.today()
 
 #let doi(arg) = {
   lnk(doi_prefix + arg,arg)
@@ -20,11 +21,11 @@
     // (name: "linkedin", link: "linkedin.com/in/fosco-g-loregian-b379a539/", display: "Fosco Loregian"),
     (name: "location", link: "https://maps.app.goo.gl/kQWaARwi5vgawuFn9", display: "Akadeemia tee 21/B"),
   ),
-  tagline: [Category theory, and everything about it.],
+  tagline: [Category theory and everything about it. (last update: #today.display("[day]/[month]/[year]"))],
   [
     == Current Position
 
-    === Researcher in Category Theory \
+    === Researcher \
     _Tallinna Tehnikaülikooli Küberneetika Instituut_\
     #term[Aug 2023 | now][Castrum Danorum, EE]
     - Research, teaching, organization of seminars.
@@ -56,7 +57,7 @@
 
     == Education
 
-    === Ph.D. in Mathematics \
+    === Ph.D. in Mathematics #footnote[Technically "Ph.D. in Geometry", but that's probably derogatory towards true geometers.] \
     _Scuola Internazionale Superiore di Studi Avanzati_\
     #term[Oct 2012 | Jun 2016][Tergeste, IT]
 
@@ -75,12 +76,12 @@
     == Preprints
     // has to be done by hand, dammit.
 
-    - F. Loregian, _Rosen's No-Go Theorem for Regular Categories_, #xiv("2012.11648") (2021)
-    - D. Dentamaro and F. Loregian, Categorical Ontology I - Existence, (2020)
-    - D. Dentamaro and F. Loregian, Functorial _Erkennen_, (2020)
-    - I. D. Liberti and F. Loregian, _On the Unicity of Formal Category Theories_, #xiv("1901.01594") (2019)
-    - F. Loregian, _Localization Theory for Derivators_, #xiv("1802.08193") (2018)
-    - D. Fiorenza and F. Loregian, _Recollements in Stable $infinity$-Categories_, #xiv("1507.03913") (2016)
+    - ---, _Rosen's No-Go Theorem for Regular Categories_, #xiv("2012.11648") (2021)
+    - D. Dentamaro and ---, Categorical Ontology I - Existence, (2020)
+    - D. Dentamaro and ---, Functorial _Erkennen_, (2020)
+    - I. D. Liberti and ---, _On the Unicity of Formal Category Theories_, #xiv("1901.01594") (2019)
+    - ---, _Localization Theory for Derivators_, #xiv("1802.08193") (2018)
+    - D. Fiorenza and ---, _Recollements in Stable $infinity$-Categories_, #xiv("1507.03913") (2016)
 
     == Teaching and stuff
 
@@ -88,18 +89,22 @@
 
     === ITI9200 - Introduction to Category Theory
     #par(justify: true)[A course on basic category theory; at the #lnk("")[course webpage] you find a diary of the lectures and study material.]
-    #term[2020---now][Castrum Danorum, EE]
+    #term[2020---now; Spring term][Castrum Danorum, EE]
 
     === Elements of Finite Mathematics
     #par(justify: true)[Techniques of counting, probability, discrete and continuous random variables.]
-    #term[1st term 2016][London, CA]
+    #term[1st term 2016][Lunden, CA]
 
 
     ==== Organization of Events
 
+    === Organiser of ItaCa 2024
+    #par(justify: true)[The annual meeting of the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
+    #term[Dec 2024][Pàdoa, IT]
+
     === Organiser of ItaCa 2023
     #par(justify: true)[The annual meeting of the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
-    #term[Dec 2023][Torino, IT]
+    #term[Dec 2023][Turin, IT]
 
     === Organiser of ItaCa Fest
     #par(justify: true)[An online webinar aimed to gather the community of #lnk("https://progetto-itaca.github.io")[ItaCa].]
@@ -107,7 +112,7 @@
 
     === PSSL 103 - Brno
     #par(justify: true)[I have been one of the organizers of 103rd Peripathetic Seminar on Sheaves and Logic.]
-    #term[Apr 2018][Brno, CZ]
+    #term[Apr 2018][Bruna, CZ]
     
     ==== Supervision of students
 
@@ -140,19 +145,13 @@
 
     #par(justify: true)[I like the art of crafting books and drawing maps; this is not unrelated to my love for Mathematics.] 
     #par(justify: true)[I am a pretty decent _TeXnic_.] 
-    #par(justify: true)[I became a relatively frequent contributor of #lnk("")[agda-categories]. Agda is... well, pain.]
+    #par(justify: true)[I became a relatively frequent contributor of #lnk("https://github.com/agda/agda-categories")[agda-categories]. Agda is... well, pain.]
     #par(justify: true)[I like languages, natural and artificial (_mi ŝatus verki vortaron al matematiko, kun terminoj el teoria kategorioj_; _mina õpin eesti keelt, aeglaselt_; _jeg liker Norsk, men jeg liker Maria Franz mer_); again, this is not unrelated to my love for Mathematics.]
 
-    ==== Refereeing and reviewing activity
+    // ==== Refereeing and reviewing activity
 
-    === Reviewer and referee\
-    zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
+    // === Reviewer and referee\
+    // zbMath, AMS Math. Rev., Higher Structures, Axiomathes, RCSM, JPAA
 
-    == Language skills
-
-    #skill("ISO 639-3 vec", 5)
-    #skill("ISO 639-3 ita", 4)
-    #skill("ISO 639-3 eng", 4)
-    #skill("ISO 639-3 fra", 3)
   ],
 )
