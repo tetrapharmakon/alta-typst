@@ -76,6 +76,8 @@
     == Preprints
     // has to be done by hand, dammit.
 
+    - Andrea Laretto and --- and Niccolò Veltri, _Directed equality with dinaturality_, #xiv("2409.10237")
+    - D. Ahman and G. Coraglia and D. Castelnovo and --- and N- Martins-Ferreira and Ü. Reimaa, _Fibrations of algebras_, #xiv("2408.16581")
     - ---, _Rosen's No-Go Theorem for Regular Categories_, #xiv("2012.11648") (2021)
     - D. Dentamaro and ---, Categorical Ontology I - Existence, (2020)
     - D. Dentamaro and ---, Functorial _Erkennen_, (2020)
@@ -143,10 +145,7 @@
 
     ==== Sparse skills
 
-    #par(justify: true)[I like the art of crafting books and drawing maps; this is not unrelated to my love for Mathematics.] 
-    #par(justify: true)[I am a pretty decent _TeXnic_.] 
-    #par(justify: true)[I became a relatively frequent contributor of #lnk("https://github.com/agda/agda-categories")[agda-categories]. Agda is... well, pain.]
-    #par(justify: true)[I like languages, natural and artificial (_mi ŝatus verki vortaron al matematiko, kun terminoj el teoria kategorioj_; _mina õpin eesti keelt, aeglaselt_; _jeg liker Norsk, men jeg liker Maria Franz mer_); again, this is not unrelated to my love for Mathematics.]
+    #par(justify: true)[I like the art of crafting books and drawing maps; this is not unrelated to my love for Mathematics. I am a pretty decent _TeXnic_. I like languages, natural and artificial (_mi ŝatus verki vortaron al matematiko, kun terminoj el teoria kategorioj_; _mina õpin eesti keelt, aeglaselt_; _jeg liker Norsk, men jeg liker Maria Franz mer_); again, this is not unrelated to my love for Mathematics.] 
 
     // ==== Refereeing and reviewing activity
 
